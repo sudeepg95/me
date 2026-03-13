@@ -8,26 +8,27 @@ const userProfile = {
       country: "India",
       displayName: "Bengaluru, India",
     },
-    description: "Sudeep G | Lead Software Engineer | Bangalore, India",
+    description:
+      "Sudeep G | Lead Software Engineer | AI-Enabled Engineering Specialist | Bengaluru, India",
     summaryParts: {
-      prefix: "A",
-      highlightText: "generalist",
+      prefix: "An",
+      highlightText: "AI-enabled",
       middleText:
-        "engineer with a passion to solve problems, currently focused on",
-      betweenText: "for the",
-      suffix: "year of his career in Software development.",
+        "engineering specialist shipping smarter with Claude Code, Cursor & MCP, currently in the",
+      betweenText: "year of his career building",
+      suffix: "products that matter.",
     },
     experience: {
       years: 10,
-      focus: ["Web Development", "Machine learning", "Product building"],
+      focus: [
+        "AI-Enabled Engineering",
+        "Web Development",
+        "Product Building",
+      ],
     },
   },
   contact: {
     email: "sudeepg95@gmail.com",
-    whatsapp: {
-      number: "+919020709002",
-      url: "https://wa.me/+919020709002",
-    },
     social: {
       github: {
         username: "sudeepg95",
@@ -74,14 +75,14 @@ const userProfile = {
     ],
     programming: [
       {
-        title: "JavaScript",
-        icon: "simple-icons:javascript",
-        url: "https://developer.mozilla.org/en-US/docs/Web/javascript",
-      },
-      {
         title: "TypeScript",
         icon: "simple-icons:typescript",
         url: "https://www.typescriptlang.org/",
+      },
+      {
+        title: "JavaScript",
+        icon: "simple-icons:javascript",
+        url: "https://developer.mozilla.org/en-US/docs/Web/javascript",
       },
       {
         title: "Python",
@@ -106,6 +107,26 @@ const userProfile = {
     ],
     tools: [
       {
+        title: "Claude Code",
+        icon: "simple-icons:anthropic",
+        url: "https://claude.ai/code",
+      },
+      {
+        title: "Cursor",
+        icon: "cursor",
+        url: "https://cursor.com/",
+      },
+      {
+        title: "GitHub",
+        icon: "simple-icons:github",
+        url: "https://github.com/",
+      },
+      {
+        title: "Jest",
+        icon: "simple-icons:jest",
+        url: "https://jestjs.io/",
+      },
+      {
         title: "HTML5",
         icon: "simple-icons:html5",
         url: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
@@ -114,26 +135,6 @@ const userProfile = {
         title: "CSS3",
         icon: "simple-icons:css3",
         url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      },
-      {
-        title: "Jest",
-        icon: "simple-icons:jest",
-        url: "https://jestjs.io/",
-      },
-      {
-        title: "GitHub",
-        icon: "simple-icons:github",
-        url: "https://github.com/",
-      },
-      {
-        title: "Cursor",
-        icon: "cursor",
-        url: "https://cursor.com/",
-      },
-      {
-        title: "VSCode",
-        icon: "simple-icons:visualstudiocode",
-        url: "https://code.visualstudio.com/",
       },
     ],
   },

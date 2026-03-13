@@ -119,12 +119,12 @@ export class UserProfileManager {
 
   getContactLinks() {
     return [
-      {
-        url: this.getWhatsAppUrl(),
-        description: `${this.getName()} via WhatsApp`,
-        icon: "fa-brands:whatsapp",
-        type: 'whatsapp' as ContactMethod
-      },
+      // {
+      //   url: this.getWhatsAppUrl(),
+      //   description: `${this.getName()} via WhatsApp`,
+      //   icon: "fa-brands:whatsapp",
+      //   type: 'whatsapp' as ContactMethod
+      // },
       {
         url: `mailto:${this.getEmail()}`,
         description: `${this.getName()} via Email`,
