@@ -19,6 +19,12 @@ const summaryParts = userProfile.getSummaryParts();
     {summaryParts.prefix}
     <span class="text-primary">{summaryParts.highlightText}</span>
     {summaryParts.middleText}
+    <span class="text-primary"
+      >{summaryParts.experienceNumber}<span class="super"
+        >{summaryParts.experienceOrdinalSuffix}</span
+      >
+    </span>
+    {summaryParts.betweenText}
     {
       summaryParts.focusAreas.map((focusArea) => (
         <>
@@ -27,16 +33,10 @@ const summaryParts = userProfile.getSummaryParts();
             ? ", "
             : focusArea.isSecondToLast
               ? " & "
-              : ""}
+              : " "}
         </>
       ))
     }
-    {summaryParts.betweenText}
-    <span class="text-primary"
-      >{summaryParts.experienceNumber}<span class="super"
-        >{summaryParts.experienceOrdinalSuffix}</span
-      >
-    </span>
     {summaryParts.suffix}
   </p>
   <slot />
