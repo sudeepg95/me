@@ -15,15 +15,14 @@ const userProfile = {
       highlightText: "AI-enabled",
       middleText:
         "engineering specialist shipping smarter with Claude Code, Cursor & MCP, currently in the",
-      betweenText: "year of his career building",
-      suffix: "products that matter.",
+      betweenText: "year of his career, leveraging",
+      suffix: "to create products that matter.",
     },
     experience: {
       years: 10,
       focus: [
-        "AI-Enabled Engineering",
-        "Web Development",
-        "Product Building",
+        "Full-stack expertise",
+        "Product thinking",
       ],
     },
   },
